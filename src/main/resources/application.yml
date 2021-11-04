@@ -1,6 +1,6 @@
 spring:
   datasource: 
-    url: jdbc:mysql://localhost:3306/telecom
-    username: root
-    password: mysqlroot
+    url: jdbc:mysql://titan-wireless-db.mysql.database.azure.com:3306/telecom?useSSL=true
+    username: jsnead@titan-wireless-db
+    password: Telecom123$
     driver-class-name: com.mysql.cj.jdbc.Driver
