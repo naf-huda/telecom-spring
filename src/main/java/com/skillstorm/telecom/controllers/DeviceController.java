@@ -21,7 +21,7 @@ import com.skillstorm.telecom.services.DeviceService;
 
 @RestController
 @RequestMapping("telecom/v1")
-@CrossOrigin(origins = "http://localhost:4200") // allow requests from a specified host
+@CrossOrigin(origins = "https://telecom-angular-tw.azurewebsites.net") // allow requests from a specified host ??
 public class DeviceController {
 
 	@Autowired

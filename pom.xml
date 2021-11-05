@@ -45,4 +45,35 @@
       <scope>test</scope> 
     </dependency> 
   </dependencies>  
+  <packaging>
+  jar
+  </packaging>
+  <build>  
+    <plugins>  
+        <plugin>  
+            <groupId>org.springframework.boot</groupId>  
+            <artifactId>spring-boot-maven-plugin</artifactId>  
+            <version>2.5.6</version>  
+        </plugin>  
+    </plugins>  
+</build> 
+<!--<build>
+  <plugins>
+    <plugin>
+      Build an executable JAR
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-jar-plugin</artifactId>
+      <version>3.1.0</version>
+      <configuration>
+        <archive>
+          <manifest>
+            <addClasspath>true</addClasspath>
+            <classpathPrefix>/Users/nathan/Desktop/SkillStorm/telecom-spring/src/main/java/</classpathPrefix>
+            <mainClass>com.skillstorm.telecom.TelecomSpringApplication</mainClass>
+          </manifest>
+        </archive>
+      </configuration>
+    </plugin>
+  </plugins>
+</build>-->
 </project>
